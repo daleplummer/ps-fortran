@@ -1,0 +1,46 @@
+These routines are called from Visual Basic
+
+Survival:
+  survsize - frmMain, fmrSurvDetAltGraph, frmSurvGraph
+  survpower - frmMain, fmrSurvDetAltGraph, frmSurvGraph
+  survrelh - frmMain
+
+LR1 & LR2:
+  lsamplesize - frmLR1SampleSizeGraph, frmLR2SampleSizeGraph, frmLR1DetAltGraph, frmLR2DetAltGraph, fmrMain(btnLR1Calculate, btnLR2Calculate)
+  lpower - fmrMain(btnLR1Calculate, btnLR2Calculate), frmLR1PowerGraph, frmLR2PowerGraph, frmLR1DetAltGraph, frmLR2DetAltGraph
+  ldeltasize - fmrMain(btnLR1Calculate, btnLR2Calculate), 
+
+ttest:
+  tsamplesize - frmTTestGraph, frmMain(btnContCalc), frmTTestDetAltGraph
+  tpower - frmTTestDetAltGraph, frmTTestGraph, frmMain(btnContCalc)
+  tdeltasize - frmMain(btnContCalc)
+  invttail - frmMain(btnContCalc)
+
+Dichotomous:
+  ipsize - frmDichotGraph, frmDichotDetAltGraph, frmMain(btnDichotCalculate)
+  ippower - frmMain(btnDichotCalculate), frmDichotGraph, frmDichotDetAltGraph
+  iprelrisk - frmMain(btnDichotCalculate)
+  ----
+  msamplesize - frmDichotGraph, frmDichotDetAltGraph, frmMain(btnDichotCalculate)
+  moddsratio - frmMain(btnDichotCalculate)
+  mpower - frmDichotGraph, frmDichotDetAltGraph, frmMain(btnDichotCalculate)
+  ----
+  psize - frmMain(btnDichotCalculate), frmDichotGraph, frmDichotDetAltGraph
+  ppower - frmMain(btnDichotCalculate), frmDichotGraph, frmDichotDetAltGraph
+  prelrisk - frmMain(btnDichotCalculate)
+
+MH:
+  mhpowerfcn - frmMHGraph, frmMain(btnMHCalculate)
+  mhsize - frmMHGraph, frmMain(btnMHCalculate)
+  mhor - frmMain(btnMHCalculate), frmMHGraph
+
+fisherest
+
+arraytest
+
+test2
+
+tcrvalue
+
+
+
